@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Studentclear
+     Registration Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 4.4 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body style="background-color: #f0f8ff;">
+
+<div class="container mt-5 mb-5">
+  <div class="p-4 bg-white rounded shadow">
+    <h2 class="text-center mb-4">Student Registration Form</h2>
+
+    <form style="background-color: #e6f2ff; padding: 20px; border-radius: 10px;">
+      <div class="form-group">
+        <label for="rollNo">Roll No.</label>
+        <input type="text" class="form-control" id="rollNo" placeholder="Enter roll number">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" id="firstName" placeholder="First name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="form-control" id="lastName" placeholder="Last name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="fatherName">Father's Name</label>
+        <input type="text" class="form-control" id="fatherName" placeholder="Enter father's name">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="dobDay">Day</label>
+          <input type="text" class="form-control" id="dobDay" placeholder="DD">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="dobMonth">Month</label>
+          <input type="text" class="form-control" id="dobMonth" placeholder="MM">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="dobYear">Year</label>
+          <input type="text" class="form-control" id="dobYear" placeholder="YYYY">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="mobile">Mobile No.</label>
+        <input type="tel" class="form-control" id="mobile" placeholder="Enter mobile number">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email ID</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password">
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+          <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+          <label class="form-check-label" for="female">Female</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Department</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="cse" value="CSE">
+          <label class="form-check-label" for="cse">CSE</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="it" value="IT">
+          <label class="form-check-label" for="it">IT</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="ece" value="ECE">
+          <label class="form-check-label" for="ece">ECE</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="civil" value="Civil">
+          <label class="form-check-label" for="civil">Civil</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="course">Course</label>
+        <select id="course" class="form-control">
+          <option selected disabled>Select your course</option>
+          <option>B.Tech</option>
+          <option>BCA</option>
+          <option>BBA</option>
+          <option>MCA</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="photo">Student Photo</label>
+        <input type="file" class="form-control-file" id="photo">
+      </div>
+
+      <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" placeholder="Enter city">
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea class="form-control" id="address" rows="3" placeholder="Enter full address"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Register</button>
+    </form>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
